@@ -1,0 +1,43 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0CA497C4-1D79-8C6C-4FF1-CC922DBCE71F" schemaObject="150BDCF8-C465-32A3-AD7E-B52CDDBA9A52" name="X">
+<sourceConnName>Snowflake-Sonra-DublinOSM</sourceConnName>
+<sourceObjSchema>AWS_CLTRAIL_STG</sourceObjSchema>
+<sourceObjName>X</sourceObjName>
+<createdBy>meprofessional</createdBy>
+<createdTime>2019-12-05 12:52:18 UTC</createdTime>
+<ownerDesignName>martingo-cloud_trail</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="EVENTVERSION" id="8A7847F6-815C-8B47-8EC3-EF2F7DCA6141">
+<sourceConnName>Snowflake-Sonra-DublinOSM</sourceConnName>
+<sourceObjSchema>X</sourceObjSchema>
+<sourceObjName>EVENTVERSION</sourceObjName>
+<createdBy>meprofessional</createdBy>
+<createdTime>2019-12-05 12:52:24 UTC</createdTime>
+<ownerDesignName>martingo-cloud_trail</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>16777216</dataTypeSize>
+<ownDataTypeParameters>16777216,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="USERIDENTITY" id="A7043AFE-3894-5609-2EBC-121DBD3863B3">
+<sourceConnName>Snowflake-Sonra-DublinOSM</sourceConnName>
+<sourceObjSchema>X</sourceObjSchema>
+<sourceObjName>USERIDENTITY</sourceObjName>
+<createdBy>meprofessional</createdBy>
+<createdTime>2019-12-05 12:52:24 UTC</createdTime>
+<ownerDesignName>martingo-cloud_trail</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>CFA8E9FD-2A2F-0FFC-DA15-AB5710F2CE39</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+</Table>

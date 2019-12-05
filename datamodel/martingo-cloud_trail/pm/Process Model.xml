@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ProcessModel class="oracle.dbtools.crest.model.design.process.ProcessModel" name="Process Model" id="0A8C4E4F-865A-87D5-5BCC-062DA528091A">
+<createdBy>meprofessional</createdBy>
+<createdTime>2019-12-05 12:38:58 UTC</createdTime>
+<ownerDesignName>cloud-trail</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</ProcessModel>

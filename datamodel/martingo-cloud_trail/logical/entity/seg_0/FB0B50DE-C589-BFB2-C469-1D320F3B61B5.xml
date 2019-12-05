@@ -1,0 +1,373 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FB0B50DE-C589-BFB2-C469-1D320F3B61B5" name="CLOUDTRAIL LOG">
+<createdBy>meprofessional</createdBy>
+<createdTime>2019-12-05 18:09:18 UTC</createdTime>
+<generatorID>77A4F929-1D14-7DBF-C18F-FE40B31CC261</generatorID>
+<ownerDesignName>martingo-cloud_trail</ownerDesignName>
+<engineerTo>
+<item key="21502366-4FA4-5C5F-4218-4AF9915B0EE6" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="EVENTVERSION" id="85D6A090-B1C0-40D0-74AF-11A4B7852857">
+<createdBy>meprofessional</createdBy>
+<createdTime>2019-12-05 18:09:18 UTC</createdTime>
+<generatorID>03FD1F34-BE6D-0690-EDCA-F1CAA26E8F5C</generatorID>
+<ownerDesignName>martingo-cloud_trail</ownerDesignName>
+<engineerTo>
+<item key="21502366-4FA4-5C5F-4218-4AF9915B0EE6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>16777216</dataTypeSize>
+<ownDataTypeParameters>16777216,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="USERIDENTITY" id="E3C9F158-A165-228A-D9C3-8757DF726BCB">
+<createdBy>meprofessional</createdBy>
+<createdTime>2019-12-05 18:09:18 UTC</createdTime>
+<generatorID>A4100910-2F8B-4D7C-77FD-10F5870A0ECB</generatorID>
+<ownerDesignName>martingo-cloud_trail</ownerDesignName>
+<engineerTo>
+<item key="21502366-4FA4-5C5F-4218-4AF9915B0EE6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>CFA8E9FD-2A2F-0FFC-DA15-AB5710F2CE39</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="EVENTTIME" id="15A7C27D-7A06-6E12-C578-207DC746F656">
+<createdBy>meprofessional</createdBy>
+<createdTime>2019-12-05 18:09:18 UTC</createdTime>
+<generatorID>720BF9ED-23C5-8E5E-E016-0784B3C79CA6</generatorID>
+<ownerDesignName>martingo-cloud_trail</ownerDesignName>
+<engineerTo>
+<item key="21502366-4FA4-5C5F-4218-4AF9915B0EE6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>16777216</dataTypeSize>
+<ownDataTypeParameters>16777216,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="EVENTSOURCE" id="5871EB3F-1E14-F45D-2FC0-70BE05F97727">
+<createdBy>meprofessional</createdBy>
+<createdTime>2019-12-05 18:09:18 UTC</createdTime>
+<generatorID>8BB5CB4A-FCB1-2BD9-D9AF-3C22885FA9A2</generatorID>
+<ownerDesignName>martingo-cloud_trail</ownerDesignName>
+<engineerTo>
+<item key="21502366-4FA4-5C5F-4218-4AF9915B0EE6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>16777216</dataTypeSize>
+<ownDataTypeParameters>16777216,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="EVENTNAME" id="6A8F020A-C8BD-0E46-9D8C-43999E65DB40">
+<createdBy>meprofessional</createdBy>
+<createdTime>2019-12-05 18:09:18 UTC</createdTime>
+<generatorID>BAE0119A-0861-DF96-4D31-069A0F67B262</generatorID>
+<ownerDesignName>martingo-cloud_trail</ownerDesignName>
+<engineerTo>
+<item key="21502366-4FA4-5C5F-4218-4AF9915B0EE6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>16777216</dataTypeSize>
+<ownDataTypeParameters>16777216,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="AWSREGION" id="03896D4A-A38B-9315-0DCE-3A9BB8B6588D">
+<createdBy>meprofessional</createdBy>
+<createdTime>2019-12-05 18:09:18 UTC</createdTime>
+<generatorID>AB66A7A4-5D82-1527-BFAF-F73AF78D2868</generatorID>
+<ownerDesignName>martingo-cloud_trail</ownerDesignName>
+<engineerTo>
+<item key="21502366-4FA4-5C5F-4218-4AF9915B0EE6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>16777216</dataTypeSize>
+<ownDataTypeParameters>16777216,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SOURCEIPADDRESS" id="05EA1673-E5DB-CD03-B30A-B19E1168445F">
+<createdBy>meprofessional</createdBy>
+<createdTime>2019-12-05 18:09:18 UTC</createdTime>
+<generatorID>0E963F98-816B-39D4-3A97-3546DBD37239</generatorID>
+<ownerDesignName>martingo-cloud_trail</ownerDesignName>
+<engineerTo>
+<item key="21502366-4FA4-5C5F-4218-4AF9915B0EE6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>16777216</dataTypeSize>
+<ownDataTypeParameters>16777216,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="USERAGENT" id="8BC34EA5-F652-5788-0393-318C5C511F06">
+<createdBy>meprofessional</createdBy>
+<createdTime>2019-12-05 18:09:18 UTC</createdTime>
+<generatorID>F3C237D8-EA34-E274-3F02-1D62BD125784</generatorID>
+<ownerDesignName>martingo-cloud_trail</ownerDesignName>
+<engineerTo>
+<item key="21502366-4FA4-5C5F-4218-4AF9915B0EE6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>16777216</dataTypeSize>
+<ownDataTypeParameters>16777216,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ERRORCODE" id="36E1441E-364B-E92F-F14E-B62829F3156A">
+<createdBy>meprofessional</createdBy>
+<createdTime>2019-12-05 18:09:18 UTC</createdTime>
+<generatorID>1D98D6CC-F6CC-0A4A-8C11-17E33B4C165C</generatorID>
+<ownerDesignName>martingo-cloud_trail</ownerDesignName>
+<engineerTo>
+<item key="21502366-4FA4-5C5F-4218-4AF9915B0EE6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>16777216</dataTypeSize>
+<ownDataTypeParameters>16777216,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ERRORMESSAGE" id="56BE1036-26B7-9B8E-B17B-C9879CC29852">
+<createdBy>meprofessional</createdBy>
+<createdTime>2019-12-05 18:09:18 UTC</createdTime>
+<generatorID>6737E4A0-063D-6FE9-49B4-432162670A38</generatorID>
+<ownerDesignName>martingo-cloud_trail</ownerDesignName>
+<engineerTo>
+<item key="21502366-4FA4-5C5F-4218-4AF9915B0EE6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>16777216</dataTypeSize>
+<ownDataTypeParameters>16777216,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="REQUESTPARAMETERS" id="2FB7D7B8-88ED-D758-B2E7-0028377CBDA2">
+<createdBy>meprofessional</createdBy>
+<createdTime>2019-12-05 18:09:18 UTC</createdTime>
+<generatorID>CA31AB15-1508-936F-E87F-2A928F44EAFE</generatorID>
+<ownerDesignName>martingo-cloud_trail</ownerDesignName>
+<engineerTo>
+<item key="21502366-4FA4-5C5F-4218-4AF9915B0EE6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>CFA8E9FD-2A2F-0FFC-DA15-AB5710F2CE39</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="RESPONSEELEMENTS" id="679A2D83-D336-51BB-C6E8-3C10778DAE4A">
+<createdBy>meprofessional</createdBy>
+<createdTime>2019-12-05 18:09:18 UTC</createdTime>
+<generatorID>A423293D-8CCA-7656-2E86-7589F3DF0EF3</generatorID>
+<ownerDesignName>martingo-cloud_trail</ownerDesignName>
+<engineerTo>
+<item key="21502366-4FA4-5C5F-4218-4AF9915B0EE6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ADDITIONALEVENTDATA" id="EF29EC97-5163-E2D5-6A92-AC159360E19F">
+<createdBy>meprofessional</createdBy>
+<createdTime>2019-12-05 18:09:18 UTC</createdTime>
+<generatorID>08F9472C-763E-0E47-E27B-8589BD780F8A</generatorID>
+<ownerDesignName>martingo-cloud_trail</ownerDesignName>
+<engineerTo>
+<item key="21502366-4FA4-5C5F-4218-4AF9915B0EE6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="REQUESTID" id="DB358E52-F7EA-455A-86B9-531335C4E5A7">
+<createdBy>meprofessional</createdBy>
+<createdTime>2019-12-05 18:09:18 UTC</createdTime>
+<generatorID>C6275A1A-9962-B805-D114-08A4E2C68698</generatorID>
+<ownerDesignName>martingo-cloud_trail</ownerDesignName>
+<engineerTo>
+<item key="21502366-4FA4-5C5F-4218-4AF9915B0EE6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>16777216</dataTypeSize>
+<ownDataTypeParameters>16777216,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="EVENTID" id="6E543D58-BBCE-34C0-85FE-F29AAAF9A1AA">
+<createdBy>meprofessional</createdBy>
+<createdTime>2019-12-05 18:09:18 UTC</createdTime>
+<generatorID>BD16CD3E-3A13-6C4D-1E67-411416558CFE</generatorID>
+<ownerDesignName>martingo-cloud_trail</ownerDesignName>
+<engineerTo>
+<item key="21502366-4FA4-5C5F-4218-4AF9915B0EE6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>16777216</dataTypeSize>
+<ownDataTypeParameters>16777216,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="RESOURCES" id="C1599AB4-311B-FAA3-BA15-067D4D6C5088">
+<createdBy>meprofessional</createdBy>
+<createdTime>2019-12-05 18:09:18 UTC</createdTime>
+<generatorID>1BEB1D0B-B01B-5A53-43FB-8BF37761C2EC</generatorID>
+<ownerDesignName>martingo-cloud_trail</ownerDesignName>
+<engineerTo>
+<item key="21502366-4FA4-5C5F-4218-4AF9915B0EE6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="EVENTTYPE" id="600EAEFC-ECB4-101D-0A75-8F079908766D">
+<createdBy>meprofessional</createdBy>
+<createdTime>2019-12-05 18:09:18 UTC</createdTime>
+<generatorID>3B21C721-B1A3-4AFC-7A63-3B401D06224D</generatorID>
+<ownerDesignName>martingo-cloud_trail</ownerDesignName>
+<engineerTo>
+<item key="21502366-4FA4-5C5F-4218-4AF9915B0EE6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>16777216</dataTypeSize>
+<ownDataTypeParameters>16777216,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="APIVERSION" id="6EF53A46-48CD-C179-6351-757DE9C25AAD">
+<createdBy>meprofessional</createdBy>
+<createdTime>2019-12-05 18:09:18 UTC</createdTime>
+<generatorID>8258D2A1-99F2-C57A-A4C6-D2FEB87EC2F8</generatorID>
+<ownerDesignName>martingo-cloud_trail</ownerDesignName>
+<engineerTo>
+<item key="21502366-4FA4-5C5F-4218-4AF9915B0EE6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>16777216</dataTypeSize>
+<ownDataTypeParameters>16777216,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="READONLY" id="10C96101-5D90-F277-A074-2E501D68A135">
+<createdBy>meprofessional</createdBy>
+<createdTime>2019-12-05 18:09:18 UTC</createdTime>
+<generatorID>CC94FEE5-580A-5A3D-4AB9-F49E20D533A0</generatorID>
+<ownerDesignName>martingo-cloud_trail</ownerDesignName>
+<engineerTo>
+<item key="21502366-4FA4-5C5F-4218-4AF9915B0EE6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>16777216</dataTypeSize>
+<ownDataTypeParameters>16777216,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="RECIPIENTACCOUNTID" id="452110B9-A4FD-DA47-07DF-477C7F8EA6AD">
+<createdBy>meprofessional</createdBy>
+<createdTime>2019-12-05 18:09:18 UTC</createdTime>
+<generatorID>92DCB518-100A-AC84-516C-50B549EFBCD2</generatorID>
+<ownerDesignName>martingo-cloud_trail</ownerDesignName>
+<engineerTo>
+<item key="21502366-4FA4-5C5F-4218-4AF9915B0EE6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>16777216</dataTypeSize>
+<ownDataTypeParameters>16777216,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SERVICEEVENTDETAILS" id="5EFD8468-514F-8FFC-CE38-28BAEBF5ADFD">
+<createdBy>meprofessional</createdBy>
+<createdTime>2019-12-05 18:09:18 UTC</createdTime>
+<generatorID>BA02F8D0-F76C-961B-E250-B52337CF4403</generatorID>
+<ownerDesignName>martingo-cloud_trail</ownerDesignName>
+<engineerTo>
+<item key="21502366-4FA4-5C5F-4218-4AF9915B0EE6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>16777216</dataTypeSize>
+<ownDataTypeParameters>16777216,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SHAREDEVENTID" id="716B714C-156E-C220-8D6C-40919A46C24A">
+<createdBy>meprofessional</createdBy>
+<createdTime>2019-12-05 18:09:18 UTC</createdTime>
+<generatorID>BCCAEA7F-E24E-3516-CCEA-29B7B642280C</generatorID>
+<ownerDesignName>martingo-cloud_trail</ownerDesignName>
+<engineerTo>
+<item key="21502366-4FA4-5C5F-4218-4AF9915B0EE6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>16777216</dataTypeSize>
+<ownDataTypeParameters>16777216,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="VPCENDPOINTID" id="200AC514-CEA5-6142-6425-3C24B9E7B90A">
+<createdBy>meprofessional</createdBy>
+<createdTime>2019-12-05 18:09:18 UTC</createdTime>
+<generatorID>98E09645-FC04-99EC-C18D-70173D395D0F</generatorID>
+<ownerDesignName>martingo-cloud_trail</ownerDesignName>
+<engineerTo>
+<item key="21502366-4FA4-5C5F-4218-4AF9915B0EE6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>16777216</dataTypeSize>
+<ownDataTypeParameters>16777216,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="LOAD TS" id="1C336A97-2165-53FE-5B54-CB8CE54D2D60">
+<createdBy>meprofessional</createdBy>
+<createdTime>2019-12-05 18:09:18 UTC</createdTime>
+<generatorID>F4E756BC-6019-FC9F-EA21-46C1D84FBCC0</generatorID>
+<ownerDesignName>martingo-cloud_trail</ownerDesignName>
+<engineerTo>
+<item key="21502366-4FA4-5C5F-4218-4AF9915B0EE6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<dataTypeScale>9</dataTypeScale>
+<defaultValue>CURRENT_TIMESTAMP()</defaultValue>
+<ownDataTypeParameters>,,9</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

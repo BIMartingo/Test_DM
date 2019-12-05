@@ -1,0 +1,367 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="77A4F929-1D14-7DBF-C18F-FE40B31CC261" schemaObject="150BDCF8-C465-32A3-AD7E-B52CDDBA9A52" name="CLOUDTRAIL_LOG">
+<sourceConnName>Snowflake-Sonra-DublinOSM</sourceConnName>
+<sourceObjSchema>AWS_CLTRAIL_STG</sourceObjSchema>
+<sourceObjName>CLOUDTRAIL_LOG</sourceObjName>
+<createdBy>meprofessional</createdBy>
+<createdTime>2019-12-05 12:50:42 UTC</createdTime>
+<ownerDesignName>martingo-cloud_trail</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="EVENTVERSION" id="03FD1F34-BE6D-0690-EDCA-F1CAA26E8F5C">
+<sourceConnName>Snowflake-Sonra-DublinOSM</sourceConnName>
+<sourceObjSchema>CLOUDTRAIL_LOG</sourceObjSchema>
+<sourceObjName>EVENTVERSION</sourceObjName>
+<createdBy>meprofessional</createdBy>
+<createdTime>2019-12-05 12:51:25 UTC</createdTime>
+<ownerDesignName>martingo-cloud_trail</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>16777216</dataTypeSize>
+<ownDataTypeParameters>16777216,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="USERIDENTITY" id="A4100910-2F8B-4D7C-77FD-10F5870A0ECB">
+<sourceConnName>Snowflake-Sonra-DublinOSM</sourceConnName>
+<sourceObjSchema>CLOUDTRAIL_LOG</sourceObjSchema>
+<sourceObjName>USERIDENTITY</sourceObjName>
+<createdBy>meprofessional</createdBy>
+<createdTime>2019-12-05 12:51:25 UTC</createdTime>
+<ownerDesignName>martingo-cloud_trail</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>CFA8E9FD-2A2F-0FFC-DA15-AB5710F2CE39</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EVENTTIME" id="720BF9ED-23C5-8E5E-E016-0784B3C79CA6">
+<sourceConnName>Snowflake-Sonra-DublinOSM</sourceConnName>
+<sourceObjSchema>CLOUDTRAIL_LOG</sourceObjSchema>
+<sourceObjName>EVENTTIME</sourceObjName>
+<createdBy>meprofessional</createdBy>
+<createdTime>2019-12-05 12:51:25 UTC</createdTime>
+<ownerDesignName>martingo-cloud_trail</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>16777216</dataTypeSize>
+<ownDataTypeParameters>16777216,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EVENTSOURCE" id="8BB5CB4A-FCB1-2BD9-D9AF-3C22885FA9A2">
+<sourceConnName>Snowflake-Sonra-DublinOSM</sourceConnName>
+<sourceObjSchema>CLOUDTRAIL_LOG</sourceObjSchema>
+<sourceObjName>EVENTSOURCE</sourceObjName>
+<createdBy>meprofessional</createdBy>
+<createdTime>2019-12-05 12:51:25 UTC</createdTime>
+<ownerDesignName>martingo-cloud_trail</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>16777216</dataTypeSize>
+<ownDataTypeParameters>16777216,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EVENTNAME" id="BAE0119A-0861-DF96-4D31-069A0F67B262">
+<sourceConnName>Snowflake-Sonra-DublinOSM</sourceConnName>
+<sourceObjSchema>CLOUDTRAIL_LOG</sourceObjSchema>
+<sourceObjName>EVENTNAME</sourceObjName>
+<createdBy>meprofessional</createdBy>
+<createdTime>2019-12-05 12:51:25 UTC</createdTime>
+<ownerDesignName>martingo-cloud_trail</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>16777216</dataTypeSize>
+<ownDataTypeParameters>16777216,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="AWSREGION" id="AB66A7A4-5D82-1527-BFAF-F73AF78D2868">
+<sourceConnName>Snowflake-Sonra-DublinOSM</sourceConnName>
+<sourceObjSchema>CLOUDTRAIL_LOG</sourceObjSchema>
+<sourceObjName>AWSREGION</sourceObjName>
+<createdBy>meprofessional</createdBy>
+<createdTime>2019-12-05 12:51:25 UTC</createdTime>
+<ownerDesignName>martingo-cloud_trail</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>16777216</dataTypeSize>
+<ownDataTypeParameters>16777216,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SOURCEIPADDRESS" id="0E963F98-816B-39D4-3A97-3546DBD37239">
+<sourceConnName>Snowflake-Sonra-DublinOSM</sourceConnName>
+<sourceObjSchema>CLOUDTRAIL_LOG</sourceObjSchema>
+<sourceObjName>SOURCEIPADDRESS</sourceObjName>
+<createdBy>meprofessional</createdBy>
+<createdTime>2019-12-05 12:51:25 UTC</createdTime>
+<ownerDesignName>martingo-cloud_trail</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>16777216</dataTypeSize>
+<ownDataTypeParameters>16777216,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="USERAGENT" id="F3C237D8-EA34-E274-3F02-1D62BD125784">
+<sourceConnName>Snowflake-Sonra-DublinOSM</sourceConnName>
+<sourceObjSchema>CLOUDTRAIL_LOG</sourceObjSchema>
+<sourceObjName>USERAGENT</sourceObjName>
+<createdBy>meprofessional</createdBy>
+<createdTime>2019-12-05 12:51:25 UTC</createdTime>
+<ownerDesignName>martingo-cloud_trail</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>16777216</dataTypeSize>
+<ownDataTypeParameters>16777216,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ERRORCODE" id="1D98D6CC-F6CC-0A4A-8C11-17E33B4C165C">
+<sourceConnName>Snowflake-Sonra-DublinOSM</sourceConnName>
+<sourceObjSchema>CLOUDTRAIL_LOG</sourceObjSchema>
+<sourceObjName>ERRORCODE</sourceObjName>
+<createdBy>meprofessional</createdBy>
+<createdTime>2019-12-05 12:51:25 UTC</createdTime>
+<ownerDesignName>martingo-cloud_trail</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>16777216</dataTypeSize>
+<ownDataTypeParameters>16777216,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ERRORMESSAGE" id="6737E4A0-063D-6FE9-49B4-432162670A38">
+<sourceConnName>Snowflake-Sonra-DublinOSM</sourceConnName>
+<sourceObjSchema>CLOUDTRAIL_LOG</sourceObjSchema>
+<sourceObjName>ERRORMESSAGE</sourceObjName>
+<createdBy>meprofessional</createdBy>
+<createdTime>2019-12-05 12:51:25 UTC</createdTime>
+<ownerDesignName>martingo-cloud_trail</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>16777216</dataTypeSize>
+<ownDataTypeParameters>16777216,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="REQUESTPARAMETERS" id="CA31AB15-1508-936F-E87F-2A928F44EAFE">
+<sourceConnName>Snowflake-Sonra-DublinOSM</sourceConnName>
+<sourceObjSchema>CLOUDTRAIL_LOG</sourceObjSchema>
+<sourceObjName>REQUESTPARAMETERS</sourceObjName>
+<createdBy>meprofessional</createdBy>
+<createdTime>2019-12-05 12:51:25 UTC</createdTime>
+<ownerDesignName>martingo-cloud_trail</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>CFA8E9FD-2A2F-0FFC-DA15-AB5710F2CE39</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RESPONSEELEMENTS" id="A423293D-8CCA-7656-2E86-7589F3DF0EF3">
+<sourceConnName>Snowflake-Sonra-DublinOSM</sourceConnName>
+<sourceObjSchema>CLOUDTRAIL_LOG</sourceObjSchema>
+<sourceObjName>RESPONSEELEMENTS</sourceObjName>
+<createdBy>meprofessional</createdBy>
+<createdTime>2019-12-05 12:51:25 UTC</createdTime>
+<ownerDesignName>martingo-cloud_trail</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ADDITIONALEVENTDATA" id="08F9472C-763E-0E47-E27B-8589BD780F8A">
+<sourceConnName>Snowflake-Sonra-DublinOSM</sourceConnName>
+<sourceObjSchema>CLOUDTRAIL_LOG</sourceObjSchema>
+<sourceObjName>ADDITIONALEVENTDATA</sourceObjName>
+<createdBy>meprofessional</createdBy>
+<createdTime>2019-12-05 12:51:25 UTC</createdTime>
+<ownerDesignName>martingo-cloud_trail</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="REQUESTID" id="C6275A1A-9962-B805-D114-08A4E2C68698">
+<sourceConnName>Snowflake-Sonra-DublinOSM</sourceConnName>
+<sourceObjSchema>CLOUDTRAIL_LOG</sourceObjSchema>
+<sourceObjName>REQUESTID</sourceObjName>
+<createdBy>meprofessional</createdBy>
+<createdTime>2019-12-05 12:51:25 UTC</createdTime>
+<ownerDesignName>martingo-cloud_trail</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>16777216</dataTypeSize>
+<ownDataTypeParameters>16777216,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EVENTID" id="BD16CD3E-3A13-6C4D-1E67-411416558CFE">
+<sourceConnName>Snowflake-Sonra-DublinOSM</sourceConnName>
+<sourceObjSchema>CLOUDTRAIL_LOG</sourceObjSchema>
+<sourceObjName>EVENTID</sourceObjName>
+<createdBy>meprofessional</createdBy>
+<createdTime>2019-12-05 12:51:25 UTC</createdTime>
+<ownerDesignName>martingo-cloud_trail</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>16777216</dataTypeSize>
+<ownDataTypeParameters>16777216,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RESOURCES" id="1BEB1D0B-B01B-5A53-43FB-8BF37761C2EC">
+<sourceConnName>Snowflake-Sonra-DublinOSM</sourceConnName>
+<sourceObjSchema>CLOUDTRAIL_LOG</sourceObjSchema>
+<sourceObjName>RESOURCES</sourceObjName>
+<createdBy>meprofessional</createdBy>
+<createdTime>2019-12-05 12:51:25 UTC</createdTime>
+<ownerDesignName>martingo-cloud_trail</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EVENTTYPE" id="3B21C721-B1A3-4AFC-7A63-3B401D06224D">
+<sourceConnName>Snowflake-Sonra-DublinOSM</sourceConnName>
+<sourceObjSchema>CLOUDTRAIL_LOG</sourceObjSchema>
+<sourceObjName>EVENTTYPE</sourceObjName>
+<createdBy>meprofessional</createdBy>
+<createdTime>2019-12-05 12:51:25 UTC</createdTime>
+<ownerDesignName>martingo-cloud_trail</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>16777216</dataTypeSize>
+<ownDataTypeParameters>16777216,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="APIVERSION" id="8258D2A1-99F2-C57A-A4C6-D2FEB87EC2F8">
+<sourceConnName>Snowflake-Sonra-DublinOSM</sourceConnName>
+<sourceObjSchema>CLOUDTRAIL_LOG</sourceObjSchema>
+<sourceObjName>APIVERSION</sourceObjName>
+<createdBy>meprofessional</createdBy>
+<createdTime>2019-12-05 12:51:25 UTC</createdTime>
+<ownerDesignName>martingo-cloud_trail</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>16777216</dataTypeSize>
+<ownDataTypeParameters>16777216,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="READONLY" id="CC94FEE5-580A-5A3D-4AB9-F49E20D533A0">
+<sourceConnName>Snowflake-Sonra-DublinOSM</sourceConnName>
+<sourceObjSchema>CLOUDTRAIL_LOG</sourceObjSchema>
+<sourceObjName>READONLY</sourceObjName>
+<createdBy>meprofessional</createdBy>
+<createdTime>2019-12-05 12:51:25 UTC</createdTime>
+<ownerDesignName>martingo-cloud_trail</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>16777216</dataTypeSize>
+<ownDataTypeParameters>16777216,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RECIPIENTACCOUNTID" id="92DCB518-100A-AC84-516C-50B549EFBCD2">
+<sourceConnName>Snowflake-Sonra-DublinOSM</sourceConnName>
+<sourceObjSchema>CLOUDTRAIL_LOG</sourceObjSchema>
+<sourceObjName>RECIPIENTACCOUNTID</sourceObjName>
+<createdBy>meprofessional</createdBy>
+<createdTime>2019-12-05 12:51:25 UTC</createdTime>
+<ownerDesignName>martingo-cloud_trail</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>16777216</dataTypeSize>
+<ownDataTypeParameters>16777216,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SERVICEEVENTDETAILS" id="BA02F8D0-F76C-961B-E250-B52337CF4403">
+<sourceConnName>Snowflake-Sonra-DublinOSM</sourceConnName>
+<sourceObjSchema>CLOUDTRAIL_LOG</sourceObjSchema>
+<sourceObjName>SERVICEEVENTDETAILS</sourceObjName>
+<createdBy>meprofessional</createdBy>
+<createdTime>2019-12-05 12:51:25 UTC</createdTime>
+<ownerDesignName>martingo-cloud_trail</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>16777216</dataTypeSize>
+<ownDataTypeParameters>16777216,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SHAREDEVENTID" id="BCCAEA7F-E24E-3516-CCEA-29B7B642280C">
+<sourceConnName>Snowflake-Sonra-DublinOSM</sourceConnName>
+<sourceObjSchema>CLOUDTRAIL_LOG</sourceObjSchema>
+<sourceObjName>SHAREDEVENTID</sourceObjName>
+<createdBy>meprofessional</createdBy>
+<createdTime>2019-12-05 12:51:25 UTC</createdTime>
+<ownerDesignName>martingo-cloud_trail</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>16777216</dataTypeSize>
+<ownDataTypeParameters>16777216,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VPCENDPOINTID" id="98E09645-FC04-99EC-C18D-70173D395D0F">
+<sourceConnName>Snowflake-Sonra-DublinOSM</sourceConnName>
+<sourceObjSchema>CLOUDTRAIL_LOG</sourceObjSchema>
+<sourceObjName>VPCENDPOINTID</sourceObjName>
+<createdBy>meprofessional</createdBy>
+<createdTime>2019-12-05 12:51:25 UTC</createdTime>
+<ownerDesignName>martingo-cloud_trail</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>16777216</dataTypeSize>
+<ownDataTypeParameters>16777216,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LOAD_TS" id="F4E756BC-6019-FC9F-EA21-46C1D84FBCC0">
+<sourceConnName>Snowflake-Sonra-DublinOSM</sourceConnName>
+<sourceObjSchema>CLOUDTRAIL_LOG</sourceObjSchema>
+<sourceObjName>LOAD_TS</sourceObjName>
+<createdBy>meprofessional</createdBy>
+<createdTime>2019-12-05 12:51:25 UTC</createdTime>
+<ownerDesignName>martingo-cloud_trail</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<dataTypeScale>9</dataTypeScale>
+<defaultValue>CURRENT_TIMESTAMP()</defaultValue>
+<ownDataTypeParameters>,,9</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+</Table>

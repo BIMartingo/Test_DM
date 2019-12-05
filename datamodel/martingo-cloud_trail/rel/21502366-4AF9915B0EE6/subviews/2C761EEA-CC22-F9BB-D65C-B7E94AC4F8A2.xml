@@ -1,0 +1,30 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Diagram class="oracle.dbtools.crest.swingui.relational.DPVRelational" name="Snowflake-Sonra-Martingo" id="2C761EEA-CC22-F9BB-D65C-B7E94AC4F8A2">
+<createdBy>meprofessional</createdBy>
+<modifiedBy>meprofessional</modifiedBy>
+<createdTime>2019-12-05 12:50:42 UTC</createdTime>
+<autoRoute>false</autoRoute>
+<boxInbox>true</boxInbox>
+<showLegend>false</showLegend>
+<showLabels>false</showLabels>
+<showRelAttributes>false</showRelAttributes>
+<gridEnabled>false</gridEnabled>
+<showGrid>false</showGrid>
+<diagramColor>-1</diagramColor>
+<display>false</display>
+<notation>1</notation>
+<objectViews>
+<OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="0CA497C4-1D79-8C6C-4FF1-CC922DBCE71F" otype="Table" vid="E6A645EA-851F-250F-D716-4641F57A4098">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="688" y="20" width="257" height="51"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="402B7BA0-0DC9-4301-80FD-E3F2E3832108" otype="Table" vid="A7D553DB-323F-31B1-DE06-BE45A00F31E8">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="370" y="20" width="268" height="77"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="77A4F929-1D14-7DBF-C18F-FE40B31CC261" otype="Table" vid="CB9BDEC2-5222-A2C2-8EA2-4CCCFC5AFA74">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="20" y="20" width="300" height="337"/>
+</OView>
+</objectViews>
+</Diagram>

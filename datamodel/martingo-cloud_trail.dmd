@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="martingo-cloud_trail" id="EC8B1D8E-D641-8580-9A57-B0CDE5025808" version="3.5">
+<createdBy>meprofessional</createdBy>
+<createdTime>2019-12-05 12:38:58 UTC</createdTime>
+<ownerDesignName>cloud-trail</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>EC8B1D8E-D641-8580-9A57-B0CDE5025808</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="EC8B1D8E-D641-8580-9A57-B0CDE5025808">
+<designStoragePath>/home/meprofessional/Projects/Test_DM/TEST_DM/Data-Model/cloud-trail</designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
+</OSDM_Design>

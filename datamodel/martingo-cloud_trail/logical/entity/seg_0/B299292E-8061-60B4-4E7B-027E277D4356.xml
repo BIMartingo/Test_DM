@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B299292E-8061-60B4-4E7B-027E277D4356" name="CLOUDTRAIL LOG SRC">
+<createdBy>meprofessional</createdBy>
+<createdTime>2019-12-05 18:09:18 UTC</createdTime>
+<generatorID>402B7BA0-0DC9-4301-80FD-E3F2E3832108</generatorID>
+<ownerDesignName>martingo-cloud_trail</ownerDesignName>
+<engineerTo>
+<item key="21502366-4FA4-5C5F-4218-4AF9915B0EE6" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="SRC NAME" id="121097AD-7312-9EB3-166C-9F93465E1435">
+<createdBy>meprofessional</createdBy>
+<createdTime>2019-12-05 18:09:18 UTC</createdTime>
+<generatorID>15EC3D04-D26C-0D69-D235-B8DACA92E75E</generatorID>
+<ownerDesignName>martingo-cloud_trail</ownerDesignName>
+<engineerTo>
+<item key="21502366-4FA4-5C5F-4218-4AF9915B0EE6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>16777216</dataTypeSize>
+<ownDataTypeParameters>16777216,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SRC SEQ" id="5B0BA435-652E-D46D-42D5-07473F920B57">
+<createdBy>meprofessional</createdBy>
+<createdTime>2019-12-05 18:09:18 UTC</createdTime>
+<generatorID>157FF8E7-373B-5A91-B813-90CD3060A5B4</generatorID>
+<ownerDesignName>martingo-cloud_trail</ownerDesignName>
+<engineerTo>
+<item key="21502366-4FA4-5C5F-4218-4AF9915B0EE6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<dataTypeSize>38</dataTypeSize>
+<ownDataTypeParameters>38,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SRC INDEX" id="33252C14-05A8-FD77-F5FC-A18541A08106">
+<createdBy>meprofessional</createdBy>
+<createdTime>2019-12-05 18:09:18 UTC</createdTime>
+<generatorID>EC052549-8664-2248-B724-F3BFFAD05792</generatorID>
+<ownerDesignName>martingo-cloud_trail</ownerDesignName>
+<engineerTo>
+<item key="21502366-4FA4-5C5F-4218-4AF9915B0EE6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<dataTypeSize>38</dataTypeSize>
+<ownDataTypeParameters>38,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="F1" id="88AC2304-984F-91EF-8CBE-E82636740297">
+<createdBy>meprofessional</createdBy>
+<createdTime>2019-12-05 18:09:18 UTC</createdTime>
+<generatorID>6EA1E985-CA69-9536-74E0-9AD64B6B8A00</generatorID>
+<ownerDesignName>martingo-cloud_trail</ownerDesignName>
+<engineerTo>
+<item key="21502366-4FA4-5C5F-4218-4AF9915B0EE6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>CFA8E9FD-2A2F-0FFC-DA15-AB5710F2CE39</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

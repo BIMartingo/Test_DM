@@ -1,0 +1,24 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="X" directorySegmentName="seg_0" id="0CA497C4-1D79-8C6C-4FF1-CC922DBCE71F">
+<createdBy>meprofessional</createdBy>
+<createdTime>2019-12-05 12:52:40 UTC</createdTime>
+<ownerDesignName>martingo-cloud_trail</ownerDesignName>
+<schemaObject>150BDCF8-C465-32A3-AD7E-B52CDDBA9A52</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="EVENTVERSION" id="8A7847F6-815C-8B47-8EC3-EF2F7DCA6141">
+<createdBy>meprofessional</createdBy>
+<createdTime>2019-12-05 12:52:40 UTC</createdTime>
+<ownerDesignName>martingo-cloud_trail</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="USERIDENTITY" id="A7043AFE-3894-5609-2EBC-121DBD3863B3">
+<createdBy>meprofessional</createdBy>
+<createdTime>2019-12-05 12:52:40 UTC</createdTime>
+<ownerDesignName>martingo-cloud_trail</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+</TableProxyOraclev11g>

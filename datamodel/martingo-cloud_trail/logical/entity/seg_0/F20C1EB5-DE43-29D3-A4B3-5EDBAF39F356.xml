@@ -1,0 +1,49 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F20C1EB5-DE43-29D3-A4B3-5EDBAF39F356" name="X">
+<createdBy>meprofessional</createdBy>
+<createdTime>2019-12-05 18:09:18 UTC</createdTime>
+<generatorID>0CA497C4-1D79-8C6C-4FF1-CC922DBCE71F</generatorID>
+<ownerDesignName>martingo-cloud_trail</ownerDesignName>
+<engineerTo>
+<item key="21502366-4FA4-5C5F-4218-4AF9915B0EE6" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="EVENTVERSION" id="93282542-F6EF-CC1E-821D-F5B66E02F09E">
+<createdBy>meprofessional</createdBy>
+<createdTime>2019-12-05 18:09:18 UTC</createdTime>
+<generatorID>8A7847F6-815C-8B47-8EC3-EF2F7DCA6141</generatorID>
+<ownerDesignName>martingo-cloud_trail</ownerDesignName>
+<engineerTo>
+<item key="21502366-4FA4-5C5F-4218-4AF9915B0EE6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>16777216</dataTypeSize>
+<ownDataTypeParameters>16777216,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="USERIDENTITY" id="708FB468-485E-075C-290E-DA355A3FEC2B">
+<createdBy>meprofessional</createdBy>
+<createdTime>2019-12-05 18:09:18 UTC</createdTime>
+<generatorID>A7043AFE-3894-5609-2EBC-121DBD3863B3</generatorID>
+<ownerDesignName>martingo-cloud_trail</ownerDesignName>
+<engineerTo>
+<item key="21502366-4FA4-5C5F-4218-4AF9915B0EE6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>CFA8E9FD-2A2F-0FFC-DA15-AB5710F2CE39</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="53113AB8-79A2-9126-7B71-E0540A255570">
+<createdBy>meprofessional</createdBy>
+<createdTime>2019-12-05 12:38:58 UTC</createdTime>
+<ownerDesignName>cloud-trail</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</BusinessInfoDesign>

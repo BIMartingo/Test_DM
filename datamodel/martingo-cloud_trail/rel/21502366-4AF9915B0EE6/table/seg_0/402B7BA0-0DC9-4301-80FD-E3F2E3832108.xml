@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="402B7BA0-0DC9-4301-80FD-E3F2E3832108" schemaObject="150BDCF8-C465-32A3-AD7E-B52CDDBA9A52" name="CLOUDTRAIL_LOG_SRC">
+<sourceConnName>Snowflake-Sonra-DublinOSM</sourceConnName>
+<sourceObjSchema>AWS_CLTRAIL_STG</sourceObjSchema>
+<sourceObjName>CLOUDTRAIL_LOG_SRC</sourceObjName>
+<createdBy>meprofessional</createdBy>
+<createdTime>2019-12-05 12:51:32 UTC</createdTime>
+<ownerDesignName>martingo-cloud_trail</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="SRC_NAME" id="15EC3D04-D26C-0D69-D235-B8DACA92E75E">
+<sourceConnName>Snowflake-Sonra-DublinOSM</sourceConnName>
+<sourceObjSchema>CLOUDTRAIL_LOG_SRC</sourceObjSchema>
+<sourceObjName>SRC_NAME</sourceObjName>
+<createdBy>meprofessional</createdBy>
+<createdTime>2019-12-05 12:52:02 UTC</createdTime>
+<ownerDesignName>martingo-cloud_trail</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>16777216</dataTypeSize>
+<ownDataTypeParameters>16777216,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SRC_SEQ" id="157FF8E7-373B-5A91-B813-90CD3060A5B4">
+<sourceConnName>Snowflake-Sonra-DublinOSM</sourceConnName>
+<sourceObjSchema>CLOUDTRAIL_LOG_SRC</sourceObjSchema>
+<sourceObjName>SRC_SEQ</sourceObjName>
+<createdBy>meprofessional</createdBy>
+<createdTime>2019-12-05 12:52:02 UTC</createdTime>
+<ownerDesignName>martingo-cloud_trail</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<dataTypeSize>38</dataTypeSize>
+<ownDataTypeParameters>38,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SRC_INDEX" id="EC052549-8664-2248-B724-F3BFFAD05792">
+<sourceConnName>Snowflake-Sonra-DublinOSM</sourceConnName>
+<sourceObjSchema>CLOUDTRAIL_LOG_SRC</sourceObjSchema>
+<sourceObjName>SRC_INDEX</sourceObjName>
+<createdBy>meprofessional</createdBy>
+<createdTime>2019-12-05 12:52:02 UTC</createdTime>
+<ownerDesignName>martingo-cloud_trail</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<dataTypeSize>38</dataTypeSize>
+<ownDataTypeParameters>38,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="F1" id="6EA1E985-CA69-9536-74E0-9AD64B6B8A00">
+<sourceConnName>Snowflake-Sonra-DublinOSM</sourceConnName>
+<sourceObjSchema>CLOUDTRAIL_LOG_SRC</sourceObjSchema>
+<sourceObjName>F1</sourceObjName>
+<createdBy>meprofessional</createdBy>
+<createdTime>2019-12-05 12:52:02 UTC</createdTime>
+<ownerDesignName>martingo-cloud_trail</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>CFA8E9FD-2A2F-0FFC-DA15-AB5710F2CE39</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+</Table>

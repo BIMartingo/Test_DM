@@ -1,0 +1,135 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="CLOUDTRAIL_LOG" directorySegmentName="seg_0" id="77A4F929-1D14-7DBF-C18F-FE40B31CC261">
+<createdBy>meprofessional</createdBy>
+<createdTime>2019-12-05 12:52:40 UTC</createdTime>
+<ownerDesignName>martingo-cloud_trail</ownerDesignName>
+<schemaObject>150BDCF8-C465-32A3-AD7E-B52CDDBA9A52</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="EVENTVERSION" id="03FD1F34-BE6D-0690-EDCA-F1CAA26E8F5C">
+<createdBy>meprofessional</createdBy>
+<createdTime>2019-12-05 12:52:40 UTC</createdTime>
+<ownerDesignName>martingo-cloud_trail</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ADDITIONALEVENTDATA" id="08F9472C-763E-0E47-E27B-8589BD780F8A">
+<createdBy>meprofessional</createdBy>
+<createdTime>2019-12-05 12:52:40 UTC</createdTime>
+<ownerDesignName>martingo-cloud_trail</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SOURCEIPADDRESS" id="0E963F98-816B-39D4-3A97-3546DBD37239">
+<createdBy>meprofessional</createdBy>
+<createdTime>2019-12-05 12:52:40 UTC</createdTime>
+<ownerDesignName>martingo-cloud_trail</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="RESOURCES" id="1BEB1D0B-B01B-5A53-43FB-8BF37761C2EC">
+<createdBy>meprofessional</createdBy>
+<createdTime>2019-12-05 12:52:40 UTC</createdTime>
+<ownerDesignName>martingo-cloud_trail</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ERRORCODE" id="1D98D6CC-F6CC-0A4A-8C11-17E33B4C165C">
+<createdBy>meprofessional</createdBy>
+<createdTime>2019-12-05 12:52:40 UTC</createdTime>
+<ownerDesignName>martingo-cloud_trail</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="EVENTTYPE" id="3B21C721-B1A3-4AFC-7A63-3B401D06224D">
+<createdBy>meprofessional</createdBy>
+<createdTime>2019-12-05 12:52:40 UTC</createdTime>
+<ownerDesignName>martingo-cloud_trail</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ERRORMESSAGE" id="6737E4A0-063D-6FE9-49B4-432162670A38">
+<createdBy>meprofessional</createdBy>
+<createdTime>2019-12-05 12:52:40 UTC</createdTime>
+<ownerDesignName>martingo-cloud_trail</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="EVENTTIME" id="720BF9ED-23C5-8E5E-E016-0784B3C79CA6">
+<createdBy>meprofessional</createdBy>
+<createdTime>2019-12-05 12:52:40 UTC</createdTime>
+<ownerDesignName>martingo-cloud_trail</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="APIVERSION" id="8258D2A1-99F2-C57A-A4C6-D2FEB87EC2F8">
+<createdBy>meprofessional</createdBy>
+<createdTime>2019-12-05 12:52:40 UTC</createdTime>
+<ownerDesignName>martingo-cloud_trail</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="EVENTSOURCE" id="8BB5CB4A-FCB1-2BD9-D9AF-3C22885FA9A2">
+<createdBy>meprofessional</createdBy>
+<createdTime>2019-12-05 12:52:40 UTC</createdTime>
+<ownerDesignName>martingo-cloud_trail</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="RECIPIENTACCOUNTID" id="92DCB518-100A-AC84-516C-50B549EFBCD2">
+<createdBy>meprofessional</createdBy>
+<createdTime>2019-12-05 12:52:40 UTC</createdTime>
+<ownerDesignName>martingo-cloud_trail</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="VPCENDPOINTID" id="98E09645-FC04-99EC-C18D-70173D395D0F">
+<createdBy>meprofessional</createdBy>
+<createdTime>2019-12-05 12:52:40 UTC</createdTime>
+<ownerDesignName>martingo-cloud_trail</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="USERIDENTITY" id="A4100910-2F8B-4D7C-77FD-10F5870A0ECB">
+<createdBy>meprofessional</createdBy>
+<createdTime>2019-12-05 12:52:40 UTC</createdTime>
+<ownerDesignName>martingo-cloud_trail</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="RESPONSEELEMENTS" id="A423293D-8CCA-7656-2E86-7589F3DF0EF3">
+<createdBy>meprofessional</createdBy>
+<createdTime>2019-12-05 12:52:40 UTC</createdTime>
+<ownerDesignName>martingo-cloud_trail</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="AWSREGION" id="AB66A7A4-5D82-1527-BFAF-F73AF78D2868">
+<createdBy>meprofessional</createdBy>
+<createdTime>2019-12-05 12:52:40 UTC</createdTime>
+<ownerDesignName>martingo-cloud_trail</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SERVICEEVENTDETAILS" id="BA02F8D0-F76C-961B-E250-B52337CF4403">
+<createdBy>meprofessional</createdBy>
+<createdTime>2019-12-05 12:52:40 UTC</createdTime>
+<ownerDesignName>martingo-cloud_trail</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="EVENTNAME" id="BAE0119A-0861-DF96-4D31-069A0F67B262">
+<createdBy>meprofessional</createdBy>
+<createdTime>2019-12-05 12:52:40 UTC</createdTime>
+<ownerDesignName>martingo-cloud_trail</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SHAREDEVENTID" id="BCCAEA7F-E24E-3516-CCEA-29B7B642280C">
+<createdBy>meprofessional</createdBy>
+<createdTime>2019-12-05 12:52:40 UTC</createdTime>
+<ownerDesignName>martingo-cloud_trail</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="EVENTID" id="BD16CD3E-3A13-6C4D-1E67-411416558CFE">
+<createdBy>meprofessional</createdBy>
+<createdTime>2019-12-05 12:52:40 UTC</createdTime>
+<ownerDesignName>martingo-cloud_trail</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="REQUESTID" id="C6275A1A-9962-B805-D114-08A4E2C68698">
+<createdBy>meprofessional</createdBy>
+<createdTime>2019-12-05 12:52:40 UTC</createdTime>
+<ownerDesignName>martingo-cloud_trail</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="REQUESTPARAMETERS" id="CA31AB15-1508-936F-E87F-2A928F44EAFE">
+<createdBy>meprofessional</createdBy>
+<createdTime>2019-12-05 12:52:40 UTC</createdTime>
+<ownerDesignName>martingo-cloud_trail</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="READONLY" id="CC94FEE5-580A-5A3D-4AB9-F49E20D533A0">
+<createdBy>meprofessional</createdBy>
+<createdTime>2019-12-05 12:52:40 UTC</createdTime>
+<ownerDesignName>martingo-cloud_trail</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="USERAGENT" id="F3C237D8-EA34-E274-3F02-1D62BD125784">
+<createdBy>meprofessional</createdBy>
+<createdTime>2019-12-05 12:52:40 UTC</createdTime>
+<ownerDesignName>martingo-cloud_trail</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="LOAD_TS" id="F4E756BC-6019-FC9F-EA21-46C1D84FBCC0">
+<createdBy>meprofessional</createdBy>
+<createdTime>2019-12-05 12:52:40 UTC</createdTime>
+<ownerDesignName>martingo-cloud_trail</ownerDesignName>
+<defaultValue>CURRENT_TIMESTAMP()</defaultValue>
+</ColumnProxy>
+</columnProxies>
+</TableProxyOraclev11g>

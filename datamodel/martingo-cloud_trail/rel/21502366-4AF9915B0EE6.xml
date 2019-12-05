@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Snowflake-Sonra-Martingo" id="21502366-4FA4-5C5F-4218-4AF9915B0EE6" mainViewID="2C761EEA-CC22-F9BB-D65C-B7E94AC4F8A2">
+<createdBy>meprofessional</createdBy>
+<createdTime>2019-12-05 12:50:42 UTC</createdTime>
+<ownerDesignName>cloud-trail</ownerDesignName>
+<shouldBeOpen>true</shouldBeOpen>
+<selectedRDBMSSite>32076570-2523-435C-2E92-BF29817DFF70</selectedRDBMSSite>
+<importConnectionStamps>
+<importConnectionStamp class="oracle.dbtools.crest.imports.DBConnectionStamp">
+<connName>Snowflake-Sonra-DublinOSM</connName>
+<connUser>martin_goebbels</connUser>
+<connType>0</connType>
+</importConnectionStamp>
+</importConnectionStamps>
+</relationalModel>

@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="8145A585-C2B7-71D0-2B0A-5BAC4BBE5AD4" mainViewID="03BC26FE-7EF0-7E0D-5FC8-864A1D98A91E">
+<createdBy>meprofessional</createdBy>
+<createdTime>2019-12-05 12:38:58 UTC</createdTime>
+<ownerDesignName>cloud-trail</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

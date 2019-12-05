@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<SchemaObject class="oracle.dbtools.crest.model.design.relational.SchemaObject" name="AWS_CLTRAIL_STG" directorySegmentName="seg_0" id="150BDCF8-C465-32A3-AD7E-B52CDDBA9A52">
+<createdBy>meprofessional</createdBy>
+<createdTime>2019-12-05 12:50:42 UTC</createdTime>
+<ownerDesignName>cloud-trail</ownerDesignName>
+<importedID>150BDCF8-C465-32A3-AD7E-B52CDDBA9A52</importedID>
+</SchemaObject>
