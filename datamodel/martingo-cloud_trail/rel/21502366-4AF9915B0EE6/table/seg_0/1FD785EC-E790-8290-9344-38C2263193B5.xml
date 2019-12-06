@@ -1,0 +1,24 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1FD785EC-E790-8290-9344-38C2263193B5" name="DEMO_TABLE_TEST">
+<createdBy>meprofessional</createdBy>
+<createdTime>2019-12-06 12:06:00 UTC</createdTime>
+<ownerDesignName>martingo-cloud_trail</ownerDesignName>
+<ordsAlias>table_4</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="COLUMN_1" id="5BC22AAD-226E-DC7D-2662-EC3B01D5A3D5">
+<createdBy>meprofessional</createdBy>
+<createdTime>2019-12-06 12:07:28 UTC</createdTime>
+<ownerDesignName>martingo-cloud_trail</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>38</dataTypePrecision>
+<ownDataTypeParameters>,38,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+</Table>

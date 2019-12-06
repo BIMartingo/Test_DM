@@ -1107,7 +1107,7 @@
 	<logicaltype name="ARRAY" objectid="67A0CBF2-45B7-A66D-29C2-1105179D4766">
 		<mapping rdbms="Oracle Database 12cR2">UNKNOWN</mapping>
 		<mapping rdbms="Oracle Database 12c">UNKNOWN</mapping>
-		<mapping rdbms="Oracle Database 11g">UNKNOWN</mapping>
+		<mapping rdbms="Oracle Database 11g">ARRAY</mapping>
 		<mapping rdbms="Oracle Database 10g">UNKNOWN</mapping>
 		<mapping rdbms="Oracle9i">UNKNOWN</mapping>
 		<mapping rdbms="SQL Server 2012">UNKNOWN</mapping>
